@@ -127,7 +127,7 @@ st.write("""
 - You must make all submissions public.
 - Report each submission JSON file and codes at GitHub Repo to the admins at Discord Channel
 - After first submission host your solution/model. (A simple interface that does object and triplet detection)
-- For compute and deployment you can use [Lightning AI platform](https://lightning.ai/))
+- For compute and deployment you can use [Lightning AI platform](https://lightning.ai/).
 """)
 st.divider()
 
