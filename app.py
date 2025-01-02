@@ -126,7 +126,8 @@ st.write("### Rules for submission")
 st.write("""
 - You must make all submissions public.
 - Report each submission JSON file and codes at GitHub Repo to the admins at Discord Channel
-- Maintain a streamlit/github page documenting your model development and training algorithms.
+- After first submission host your solution/model. (A simple interface that does object and triplet detection)
+- For compute and deployment you can use [Lightning AI platform](https://lightning.ai/))
 """)
 st.divider()
 
@@ -166,8 +167,6 @@ Each VIDEO_PREDICTION should be a dict formated in the following ways:
             "detection": [
             {"triplet": triplet_id, "instrument": [tool_id, tool_prob,bbox_x, bbox_y, bbox_w, bbox_h]}
             ...
-            {"triplet": triplet_id, "instrument": [tool_id, tool_prob,bbox_x, bbox_y, bbox_w, bbox_h]}
-            ]
             } ....
         }
 """)
