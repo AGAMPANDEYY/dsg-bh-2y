@@ -16,7 +16,7 @@ logo_image=open(logo_path,"rb").read()
 
 st.sidebar.image(logo_image,use_container_width=True)
 st.sidebar.markdown(f"# Join our [Discord Channel](https://discord.gg/xDGk6Wrc)")
-if st.sidebar.button("Participate in the Challenge"):
+if st.sidebar.button("Participate in the Post Challenge Phase"):
     st.sidebar.markdown("Join the challenge [Here](https://eval.ai/web/challenges/challenge-page/2429/overview)")
 
 if st.sidebar.button(""" Guide for loading datasets 
