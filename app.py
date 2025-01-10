@@ -15,7 +15,7 @@ logo_path="media/dsg-logo.png"
 logo_image=open(logo_path,"rb").read()
 
 st.sidebar.image(logo_image,use_container_width=True)
-st.sidebar.markdown(f"# Join our [Discord Channel](https://discord.gg/xDGk6Wrc)")
+st.sidebar.markdown(f"# Join our [Discord Channel](https://discord.gg/9dMZVkJw)")
 if st.sidebar.button("Participate in Post Challenge Track"):
     st.sidebar.markdown("Join the challenge [Here](https://eval.ai/web/challenges/challenge-page/2429/overview)")
 
